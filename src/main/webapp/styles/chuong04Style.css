@@ -1,0 +1,57 @@
+.content {
+
+position: absolute;
+
+top: 0;
+
+left: 250px;
+
+width: calc(100% - 250px);
+
+min-height: 100vh;
+
+
+
+padding: 20px;
+
+transition: ease-in-out 0.5s;
+
+flex-direction: column;
+
+}
+
+.content h1 {
+font-size: 140%;
+color: teal;
+margin-bottom: .5em;
+}
+.content h2 {
+font-size: 120%;
+color: teal;
+margin-bottom: .5em;
+}
+.content label {
+float: left;
+width: 7em;
+margin-bottom: 0.5em;
+font-weight: bold;
+}
+.content input[type="text"], input[type="email"] { /* An attribute selector */
+width: 15em;
+margin-left: 0.5em;
+margin-bottom: 0.5em;
+}
+.content span {
+margin-left: 0.5em;
+margin-bottom: 0.5em;
+}
+.content br {
+clear: both;
+}
+
+.content .pad_top {
+padding-top: 0.25em;
+}
+.content.margin_left {
+margin-left: 0.5em;
+}
